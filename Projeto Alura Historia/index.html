@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Montanha de Cristal</title>
+  </head>
+  <body>
+    <main>
+      <div class="passo ativo" id="passo-0">
+        <img src="img/cenario-passo0.png" alt="Cenário inicial da floresta" />
+        <p>
+          Há muito tempo, encontrei um mapa antigo em um mercado de
+          antiguidades. Esse mapa prometia levar ao topo da Montanha de Cristal,
+          onde um poder imensurável estava escondido.
+        </p>
+        <button class="btn-proximo" data-proximo="1">Iniciar a jornada</button>
+      </div>
+      <div class="passo" id="passo-1">
+        <p>
+          A jornada começa na floresta densa, onde trilhas misteriosas levam a
+          diferentes destinos.
+        </p>
+        <button class="btn-proximo" data-proximo="2">
+          Seguir pela trilha da direita
+        </button>
+        <button class="btn-proximo" data-proximo="3">
+          Seguir pela trilha da esquerda
+        </button>
+      </div>
+      <div class="passo" id="passo-2">
+        <p>
+          A trilha da direita leva a uma caverna escura, onde o silêncio é
+          perturbador.
+        </p>
+        <button class="btn-proximo" data-proximo="4">Entrar na caverna</button>
+        <button class="btn-proximo" data-proximo="1">
+          Voltar à trilha inicial
+        </button>
+      </div>
+      <div class="passo" id="passo-3">
+        <p>
+          A trilha da esquerda leva a um rio cintilante que flui em direção às
+          montanhas.
+        </p>
+        <button class="btn-proximo" data-proximo="5">Seguir o rio</button>
+        <button class="btn-proximo" data-proximo="6">
+          Procurar outra passagem
+        </button>
+      </div>
+      <div class="passo" id="passo-4">
+        <p>
+          Dentro da caverna, você encontra um ancião que oferece um pergaminho
+          mágico.
+        </p>
+        <button class="btn-proximo" data-proximo="7">
+          Aceitar o pergaminho
+        </button>
+        <button class="btn-proximo" data-proximo="8">
+          Recusar e seguir em frente
+        </button>
+      </div>
+      <div class="passo" id="passo-5">
+        <p>
+          Seguindo o rio, você chega a um vale escondido onde criaturas mágicas
+          habitam.
+        </p>
+        <button class="btn-proximo" data-proximo="9">
+          Falar com as criaturas
+        </button>
+        <button class="btn-proximo" data-proximo="10">
+          Evitar contato e seguir
+        </button>
+      </div>
+      <div class="passo" id="passo-6">
+        <p>
+          Procurando outra passagem, você se depara com uma ponte de corda
+          frágil sobre um abismo.
+        </p>
+        <button class="btn-proximo" data-proximo="11">Cruzar a ponte</button>
+        <button class="btn-proximo" data-proximo="12">
+          Procurar outra rota
+        </button>
+      </div>
+      <div class="passo" id="passo-7">
+        <p>
+          O pergaminho revela um encantamento que permite a passagem segura
+          através da montanha.
+        </p>
+        <button class="btn-proximo" data-proximo="13">
+          Usar o encantamento
+        </button>
+        <button class="btn-proximo" data-proximo="14">
+          Continuar sem usá-lo
+        </button>
+      </div>
+      <div class="passo" id="passo-8">
+        <p>
+          Seguindo em frente sem o pergaminho, você encontra uma porta de pedra
+          maciça bloqueando o caminho.
+        </p>
+        <button class="btn-proximo" data-proximo="13">
+          Tentar abrir a porta
+        </button>
+        <button class="btn-proximo" data-proximo="0">Retornar</button>
+      </div>
+      <div class="passo" id="passo-9">
+        <p>
+          As criaturas mágicas revelam um segredo: a Montanha de Cristal só
+          aparece àqueles que são puros de coração.
+        </p>
+        <button class="btn-proximo" data-proximo="14">Provar sua pureza</button>
+        <button class="btn-proximo" data-proximo="12">
+          Seguir o caminho por conta própria
+        </button>
+      </div>
+      <div class="passo" id="passo-10">
+        <p>
+          Evitando contato, você encontra uma passagem secreta que leva
+          diretamente à montanha.
+        </p>
+        <button class="btn-proximo" data-proximo="13">
+          Entrar na passagem
+        </button>
+        <button class="btn-proximo" data-proximo="5">Seguir o rio</button>
+      </div>
+      <div class="passo" id="passo-11">
+        <p>
+          Ao cruzar a ponte, ela se rompe, mas você consegue chegar à margem
+          oposta. Agora, a montanha está à vista.
+        </p>
+        <button class="btn-proximo" data-proximo="15">
+          Escalar a montanha
+        </button>
+        <button class="btn-proximo" data-proximo="10">
+          Procurar outro caminho
+        </button>
+      </div>
+      <div class="passo" id="passo-12">
+        <p>
+          Ao procurar outra rota, você encontra uma entrada secreta na base da
+          montanha.
+        </p>
+        <button class="btn-proximo" data-proximo="13">
+          Entrar na montanha
+        </button>
+        <button class="btn-proximo" data-proximo="0">Retornar ao início</button>
+      </div>
+      <div class="passo" id="passo-13">
+        <p>
+          Dentro da montanha, você encontra a Sala de Cristal, onde um cristal
+          gigantesco pulsa com energia.
+        </p>
+        <button class="btn-proximo" data-proximo="15">Tocar no cristal</button>
+        <button class="btn-proximo" data-proximo="14">Sair da montanha</button>
+      </div>
+      <div class="passo" id="passo-14">
+        <p>
+          Ao não usar o encantamento ou evitar a Sala de Cristal, você encontra
+          um caminho alternativo que leva a uma clareira pacífica.
+        </p>
+        <button class="btn-proximo" data-proximo="0">Ficar na clareira</button>
+        <button class="btn-proximo" data-proximo="11">Voltar à montanha</button>
+      </div>
+      <div class="passo" id="passo-15">
+        <p>
+          Ao tocar no cristal, você se torna guardião de seu poder. A Montanha
+          de Cristal desaparece, deixando apenas você como a última prova de sua
+          existência.
+        </p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
